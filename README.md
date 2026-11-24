@@ -110,4 +110,26 @@ It builds a Max Heap, then repeatedly extracts the largest element and places it
 - Analyze and compare algorithm efficiency using Big O notation.
 - Improve problem-solving and programming skills.
 
+## 🔍 Binary Search
 
+Binary Search is an efficient searching algorithm used to find a specific element in a **sorted array**.
+
+It works by repeatedly dividing the search range into two halves:
+
+1. Find the middle element.
+2. If the middle element matches the target, return its position.
+3. If the target is smaller, search the left half.
+4. If the target is larger, search the right half.
+5. Repeat until the element is found or the search range becomes empty.
+
+### Time Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best Case | O(1) |
+| Average Case | O(log n) |
+| Worst Case | O(log n) |
+
+**Space Complexity:** O(1) (Iterative Implementation)
+
+**Note:** Binary Search requires the array to be sorted before searching.
